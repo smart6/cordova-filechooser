@@ -70,8 +70,9 @@ public class FileChooser extends CordovaPlugin {
             } else if (resultCode == Activity.RESULT_CANCELED) {
 
                 // TODO NO_RESULT or error callback?
-                PluginResult pluginResult = new PluginResult(PluginResult.Status.NO_RESULT);
-                callback.sendPluginResult(pluginResult);
+                //PluginResult pluginResult = new PluginResult(PluginResult.Status.NO_RESULT);
+                //callback.sendPluginResult(pluginResult);
+                callback.error("No File Selected");
 
             } else {
 
