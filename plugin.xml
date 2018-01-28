@@ -4,13 +4,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android" 
     id="cordova-plugin-filechooser" 
     version="1.0.1">
-    
     <engines>
         <engine name="cordova" version=">=2.8.0" />
     </engines>
 
     <name>File Chooser</name>
-
+    <repo>https://github.com/smart6/cordova-filechooser</repo>
+    <issue>https://github.com/smart6/cordova-filechooser/issues</issue>
     <js-module src="www/fileChooser.js" name="FileChooser">
         <clobbers target="fileChooser" />
     </js-module>
